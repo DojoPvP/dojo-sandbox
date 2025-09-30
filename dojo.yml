@@ -1,29 +1,20 @@
-id: example-import
+id: "dojo-pvp"
 
-name: Example Import Dojo
+name: DojoPvP
 
-type: example
+type: hidden
 
 modules:
-
-  - import:
-      dojo: example
-      module: hello
-
-  - id: planet
-    name: Planet
-    description: A couple planets.
+  - id: test001
+    name: "Test 1"
+    description: Stuff.
+    visibility:
+      start: "2025-09-29T20:30:00-07:00"
 
     challenges:
-
       - import:
-          dojo: example
-          module: world
-          challenge: earth
-
-      - import:
-          dojo: example
-          module: world
-          challenge: mars
-        name: Martian Planet
-        description: This is a martian planet... mars.
+          dojo: ctf-archive
+          module: csawctf2011
+          challenge: net1
+        name: "My New Name"
+        description: "YOLO (this is CSAW 2011 net1)"
