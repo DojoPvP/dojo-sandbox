@@ -1,6 +1,6 @@
 id: "dojo-pvp"
 name: DojoPvP
-image:
+image: pwncollege/challenge-simple # idk if we need to supply our own
 type: hidden
 
 # TODO: dyanamic awards per event
