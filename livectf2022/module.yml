@@ -1,5 +1,6 @@
 id: livectf2022
 name: Live CTF 2022
+type: hidden
 
 challenges:
   - id: syscall-me-maybe
