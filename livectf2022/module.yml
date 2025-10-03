@@ -1,5 +1,5 @@
-id: csawctf2011
-name: CSAW CTF 2011
+id: livectf2022
+name: Live CTF 2022
 
 challenges:
   - id: syscall-me-maybe
