@@ -21,8 +21,3 @@ modules:
         description: "YOLO (this is CSAW 2011 net1)"
 
   - id: LiveCTF2022
-    name: "LiveCTF 2022"
-    # TODO: find a way to change the visibility dyanamically
-    visibility:
-      start: "2025-09-02T17:00:29-07:00"
-
