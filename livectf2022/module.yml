@@ -1,0 +1,8 @@
+id: csawctf2011
+name: CSAW CTF 2011
+
+challenges:
+  - id: syscall-me-maybe
+    name: Syscall Me Maybe
+    #visibility: 
+    #  start: "2029-08-21T10:30:00-07:00"
