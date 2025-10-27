@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# SOON(TM)
+
+FLAG='LiveCTF{theyre_happier_here_today}'
+
+python3 /challenge/encrypt.py challenge/flag "$FLAG" 50
+gcc /challenge/challenge.c /challenge/rc4.c /challenge/flag.c -Wall -Wpedantic -o /challenge/challenge
+
+# TODO: fix compatibility issues with build directory
