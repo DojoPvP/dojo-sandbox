@@ -2,73 +2,73 @@ id: basket
 name: basket
 
 challenges:
-- id: livectf2022-aes-of-spades
-  name: Aes Of Spades
-- id: livectf2022-f-in-the-stack
-  name: F In The Stack
-- id: livectf2022-fairy-nuff
-  name: Fairy Nuff
-- id: livectf2022-fast-updated
-  name: Fast Updated
-- id: livectf2022-fast-updater
-  name: Fast Updater
-- id: livectf2022-loopy-brain
-  name: Loopy Brain
-- id: livectf2022-nerd-sniped
-  name: Nerd Sniped
-- id: livectf2022-no-roplem
-  name: No Roplem
-- id: livectf2022-nopcoding
-  name: Nopcoding
-- id: livectf2022-nvulns
-  name: Nvulns
-- id: livectf2022-open-to-interpretation
-  name: Open To Interpretation
-- id: livectf2022-over-easy
-  name: Over Easy
-- id: livectf2022-pacman
-  name: Pacman
-- id: livectf2022-quick-cast
-  name: Quick Cast
-- id: livectf2022-seek-and-destroy
-  name: Seek And Destroy
-- id: livectf2022-stacks
-  name: Stacks
-- id: livectf2022-story-time
-  name: Story Time
-- id: livectf2022-syscall-me-maybe
-  name: Syscall Me Maybe
-- id: livectf2023-cheap-flights
-  name: Cheap Flights
-- id: livectf2023-have-you-tried-ti-gnisrever
-  name: Have You Tried Ti Gnisrever
-- id: livectf2023-hopscotch
-  name: Hopscotch
-- id: livectf2023-house-of-barbie
-  name: House Of Barbie
-- id: livectf2023-ioctl-me-maybe
-  name: Ioctl Me Maybe
-- id: livectf2023-jammer
-  name: Jammer
-- id: livectf2023-john-henry
-  name: John Henry
-- id: livectf2023-literally-just-gets
-  name: Literally Just Gets
-- id: livectf2023-lol-rwx
-  name: Lol Rwx
-- id: livectf2023-noppenheimer
-  name: Noppenheimer
-- id: livectf2023-pastez
-  name: Pastez
-- id: livectf2023-push-pop-automaton
-  name: Push Pop Automaton
-- id: livectf2023-recracked
-  name: Recracked
-- id: livectf2023-shop
-  name: Shop
-- id: livectf2023-snomelet
-  name: Snomelet
-- id: livectf2023-the-way
-  name: The Way
-- id: livectf2023-uleb4096
-  name: Uleb4096
+    - id: livectf2022-aes-of-spades
+      name: Aes Of Spades
+    - id: livectf2022-f-in-the-stack
+      name: F In The Stack
+    - id: livectf2022-fairy-nuff
+      name: Fairy Nuff
+    - id: livectf2022-fast-updated
+      name: Fast Updated
+    - id: livectf2022-fast-updater
+      name: Fast Updater
+    - id: livectf2022-loopy-brain
+      name: Loopy Brain
+    - id: livectf2022-nerd-sniped
+      name: Nerd Sniped
+    - id: livectf2022-no-roplem
+      name: No Roplem
+    - id: livectf2022-nopcoding
+      name: Nopcoding
+    - id: livectf2022-nvulns
+      name: Nvulns
+    - id: livectf2022-open-to-interpretation
+      name: Open To Interpretation
+    - id: livectf2022-over-easy
+      name: Over Easy
+    - id: livectf2022-pacman
+      name: Pacman
+    - id: livectf2022-quick-cast
+      name: Quick Cast
+    - id: livectf2022-seek-and-destroy
+      name: Seek And Destroy
+    - id: livectf2022-stacks
+      name: Stacks
+    - id: livectf2022-story-time
+      name: Story Time
+    - id: livectf2022-syscall-me-maybe
+      name: Syscall Me Maybe
+    - id: livectf2023-cheap-flights
+      name: Cheap Flights
+    - id: livectf2023-have-you-tried-ti-gnisrever
+      name: Have You Tried Ti Gnisrever
+    - id: livectf2023-hopscotch
+      name: Hopscotch
+    - id: livectf2023-house-of-barbie
+      name: House Of Barbie
+    - id: livectf2023-ioctl-me-maybe
+      name: Ioctl Me Maybe
+    - id: livectf2023-jammer
+      name: Jammer
+    - id: livectf2023-john-henry
+      name: John Henry
+    - id: livectf2023-literally-just-gets
+      name: Literally Just Gets
+    - id: livectf2023-lol-rwx
+      name: Lol Rwx
+    - id: livectf2023-noppenheimer
+      name: Noppenheimer
+    - id: livectf2023-pastez
+      name: Pastez
+    - id: livectf2023-push-pop-automaton
+      name: Push Pop Automaton
+    - id: livectf2023-recracked
+      name: Recracked
+    - id: livectf2023-shop
+      name: Shop
+    - id: livectf2023-snomelet
+      name: Snomelet
+    - id: livectf2023-the-way
+      name: The Way
+    - id: livectf2023-uleb4096
+      name: Uleb4096
