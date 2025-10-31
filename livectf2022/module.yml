@@ -1,9 +1,0 @@
-id: livectf2022
-name: Live CTF 2022
-type: hidden
-
-challenges:
-  - id: syscall-me-maybe
-    name: Syscall Me Maybe
-    #visibility: 
-    #  start: "2029-08-21T10:30:00-07:00"

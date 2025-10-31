@@ -20,4 +20,4 @@ modules:
         name: "My New Name"
         description: "YOLO (this is CSAW 2011 net1)"
 
-  - id: livectf2022
+  - id: basket
