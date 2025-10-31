@@ -1,10 +1,7 @@
 id: "dojo-pvp"
 name: DojoPvP
-image: pwncollege/challenge-simple # idk if we need to supply our own
+image: prathamgupta36/ctf-archive:1.9  # pwncollege/challenge-simple # idk if we need to supply our own
 #type: hidden
-
-# TODO: dyanamic awards per event
-# award:
 
 modules:
   - id: test001

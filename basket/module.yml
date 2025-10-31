@@ -33,7 +33,7 @@ challenges:
   name: Nvulns
   type: challenge
 - id: livectf2022-open-to-interpretati
-  name: Open To Interpretati
+  name: Open To Interpretation
   type: challenge
 - id: livectf2022-over-easy
   name: Over Easy
