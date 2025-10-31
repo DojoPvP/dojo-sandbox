@@ -1,6 +1,6 @@
 id: basket
 name: basket
-type: hidden
+
 challenges:
 - id: livectf2022-aes-of-spades
   name: Aes Of Spades
