@@ -5,7 +5,7 @@ import os
 challenges = os.listdir("./basket")
 
 
-with open("./module.yml") as f:
+with open("./basket/module.yml") as f:
     data = yaml.safe_load(f)
 
 def get_name(chall_id):
@@ -18,7 +18,8 @@ for chall in sorted(challenges):
     name = get_name(chall)
     data["challenges"].append({
         "id": chall,
-        "name": name
+        "name": name,
+        "type": "challenge",
     })
 
 with open("./module.yml", "w") as f:
