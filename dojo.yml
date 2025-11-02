@@ -1,6 +1,6 @@
 id: "dojo-pvp"
 name: DojoPvP
-image: prathamgupta36/ctf-archive:1.9  # pwncollege/challenge-simple # idk if we need to supply our own
+image: prathamgupta36/ctf-archive-experimental:0.1
 #type: hidden
 
 modules:
