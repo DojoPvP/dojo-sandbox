@@ -60,7 +60,7 @@ challenges:
   name: Cheap Flights
   type: challenge
 - id: livectf2023-have-you-tried-ti-gn
-  name: Have You Tried Ti Gn
+  name: Have You Tried tI gnisreveR
   type: challenge
 - id: livectf2023-hopscotch
   name: Hopscotch
@@ -81,7 +81,7 @@ challenges:
   name: Literally Just Gets
   type: challenge
 - id: livectf2023-lol-rwx
-  name: Lol Rwx
+  name: Lol RWX
   type: challenge
 - id: livectf2023-noppenheimer
   name: Noppenheimer
