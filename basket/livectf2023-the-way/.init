@@ -8,7 +8,6 @@ python encrypt.py ./flag "$FLAG" 70 # originally 50
 gcc *.c -Wall -Wpedantic -o challenge
 
 chmod u+s challenge
-chmod u+s server.py
 rm *.c
 rm *.h
 rm encrypt.py

@@ -113,11 +113,13 @@ with open(f"{base_name}.c", "w") as fout:
 with open(f"{base_name}.h", "w") as fout:
     fout.write(header)
 
-src_dir = Path(__file__).parent.parent
-with open(src_dir / 'src' / 'server.tpl.py', 'r') as fin:
+#src_dir = Path(__file__).parent.parent
+#with open(src_dir / 'src' / 'server.tpl.py', 'r') as fin:
+with open('server.tpl.py', 'r') as fin:
     server_template = fin.read()
 server_code = server_template.replace('FLAG_HASH_PLACEHOLDER', flag_hash.hex())
-output_path = src_dir / 'build' / 'server.py'
+#output_path = src_dir / 'build' / 'server.py'
+output_path = 'server.py'
 with open(output_path, 'w') as fout:
     fout.write(server_code)
-output_path.chmod(0o0755)
+#output_path.chmod(0o0755)
