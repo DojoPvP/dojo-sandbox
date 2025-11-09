@@ -1,0 +1,4 @@
+#!/bin/bash
+
+gcc challenge.c -o challenge
+rm challenge.c
