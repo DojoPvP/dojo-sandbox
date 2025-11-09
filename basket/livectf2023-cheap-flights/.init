@@ -2,3 +2,4 @@
 
 gcc /challenge/challenge.c -o /challenge/challenge
 rm /challenge/challenge.c
+rm /challenge/.init
