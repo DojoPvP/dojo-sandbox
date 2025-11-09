@@ -1,4 +1,4 @@
 #!/bin/bash
 
-gcc challenge.c -o challenge
-rm challenge.c
+gcc /challenge/challenge.c -o /challenge/challenge
+rm /challenge/challenge.c
