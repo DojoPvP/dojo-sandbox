@@ -6,5 +6,5 @@ gcc program.c -Wall -fno-stack-protector -z execstack -o challenge
 
 chmod u+s challenge
 rm generate.py
-rm challenge.c
+rm *.c
 rm .init

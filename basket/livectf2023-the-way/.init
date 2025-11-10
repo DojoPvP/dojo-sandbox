@@ -7,6 +7,7 @@ cd /challenge
 python encrypt.py ./flag "$FLAG" 70 # originally 50
 gcc *.c -Wall -Wpedantic -o challenge
 
+chmod ugo+x server.py
 chmod u+s challenge
 rm *.c
 rm *.h
