@@ -1,0 +1,138 @@
+{
+  "aes-of-spades": {
+    "name": "Aes Of Spades",
+    "progressive_hints": "AES encryption is deterministic and reversible. If you know what bytes you want to END UP with after encryption, you can work backwards. The program does: `memory[addr] = AES_encrypt(memory[addr] XOR IV, key)`. If you control the key and IV, and you know the original bytes at the address, can you calculate what IV would produce any desired ciphertext? Consider using AES decryption to reverse-engineer the required inputs."
+  },
+  "f-in-the-stack": {
+    "name": "F In The Stack",
+    "progressive_hints": "The program has some interesting file loading behavior. Pay close attention to how it determines file size versus how it actually reads file content. What's the difference between `lstat()` and `fstat()`? How does the program handle symbolic links, and what happens when a symlink's metadata differs from the target file's actual content?"
+  },
+  "fairy-nuff": {
+    "name": "Fairy Nuff",
+    "progressive_hints": "Pay close attention to what happens when you select option 7. The program creates executable memory and runs the contents of your `brew` array as code. This is a major clue about what kind of data you need to construct in that array."
+  },
+  "fast-updater": {
+    "name": "Fast Updater",
+    "progressive_hints": "strcmp"
+  },
+  "loopy-brain": {
+    "name": "Loopy Brain",
+    "progressive_hints": "Brainfuck interpreter with severe limitations - only 9 bytes for your program."
+  },
+  "nerd-sniped": {
+    "name": "Nerd Sniped",
+    "progressive_hints": "127 + 1 = ? . Multiple tries are required"
+  },
+  "no-roplem": {
+    "name": "No Roplem",
+    "progressive_hints": "RC4 is deterministic. Every 16 bytes, a ____ appears"
+  },
+  "nopcoding": {
+    "name": "Nopcoding",
+    "progressive_hints": "What's a NOP in 64-bit might not be in 32-bit."
+  },
+  "nvulns": {
+    "name": "Nvulns",
+    "progressive_hints": "Negative array indices work too."
+  },
+  "open-to-interpretation": {
+    "name": "Open To Interpretation",
+    "progressive_hints": "Signed overflow at 127. What lies beyond your storage?"
+  },
+  "over-easy": {
+    "name": "Over Easy",
+    "progressive_hints": "32 is just a suggestion."
+  },
+  "pacman": {
+    "name": "Pacman",
+    "progressive_hints": "PATH_MAX = 4096. Unions overlap. What comes after?"
+  },
+  "quick-cast": {
+    "name": "Quick Cast",
+    "progressive_hints": "Unions share memory. Read as number, write as pointer."
+  },
+  "seek-and-destroy": {
+    "name": "Seek And Destroy",
+    "progressive_hints": "/proc is your superpower."
+  },
+  "stacks": {
+    "name": "Stacks",
+    "progressive_hints": "40 integers? Push more."
+  },
+  "story-time": {
+    "name": "Story Time",
+    "progressive_hints": "RLE doesn't check bounds. Function pointers await."
+  },
+  "syscall-me-maybe": {
+    "name": "Syscall Me Maybe",
+    "progressive_hints": "syscall number 9 ?"
+  },
+    "cheap-flights": {
+    "name": "Cheap Flights",
+    "progressive_hints": "While you cannot directly inject your shellcode, consider the mechanism which writes into an executable region."
+  },
+  "have-you-tried-ti-gnisrever": {
+    "name": "Have You Tried Ti Gnisrever",
+    "progressive_hints": "Investigate how the program uses and modifies your input."
+  },
+  "hopscotch": {
+    "name": "Hopscotch",
+    "progressive_hints": "Additional data gets inserted periodically. Ensure your instructions are brief and indivisible."
+  },
+  "house-of-barbie": {
+    "name": "House Of Barbie",
+    "progressive_hints": "Input lengths are sometimes not restricted properly. Try messing with the metadata that you are now able to reach!"
+  },
+  "ioctl-me-maybe": {
+    "name": "Ioctl Me Maybe",
+    "progressive_hints": "There are many gadgets located in the binary at your disposal."
+  },
+  "jammer": {
+    "name": "Jammer",
+    "progressive_hints": "An option that is used for querying allows an arbitrary amount of bytes to be copied."
+  },
+  "john-henry": {
+    "name": "John Henry",
+    "progressive_hints": "The randomizer has a predetermined seed. Each function runs once."
+  },
+  "literally-just-gets": {
+    "name": "Literally Just Gets",
+    "progressive_hints": "man 3 gets"
+  },
+  "lol-rwx": {
+    "name": "Lol Rwx",
+    "progressive_hints": "How much data can you port at a time?"
+  },
+  "noppenheimer": {
+    "name": "Noppenheimer",
+    "progressive_hints": "Take advantage of the bytes which were already initialized. The random seed is predetermined."
+  },
+  "pastez": {
+    "name": "Pastez",
+    "progressive_hints": "How much data gets printed when printing messages?"
+  },
+  "push-pop-automaton": {
+    "name": "Push Pop Automaton",
+    "progressive_hints": "The VM is closely correlated with the stack."
+  },
+  "recracked": {
+    "name": "Recracked",
+    "progressive_hints": "Leverage how pointers are used, especially when receiving special characters."
+  },
+  "shop": {
+    "name": "Shop",
+    "progressive_hints": "Determine where new accounts get stored."
+  },
+  "snomelet": {
+    "name": "Snomelet",
+    "progressive_hints": "eval() is typically never considered safe."
+  },
+  "the-way": {
+    "name": "The Way",
+    "progressive_hints": "The flag is stored in an encrypted format. Reverse the process to retrieve the flag."
+  },
+  "uleb4096": {
+    "name": "Uleb4096",
+    "progressive_hints": "Reverse the encoding process for your input to be interpreted properly."
+  }
+}
