@@ -1,0 +1,90 @@
+id: test7
+name: test7
+challenges:
+- id: test7-3cb76c67
+  name: Over Easy
+  type: challenge
+- id: test7-2ddf56f3
+  name: Nerd Sniped
+  type: challenge
+- id: test7-ee5d38f6
+  name: Syscall Me Maybe
+  type: challenge
+- id: test7-cc2770e5
+  name: Literally Just Gets
+  type: challenge
+- id: test7-64f9da26
+  name: Loopy Brain
+  type: challenge
+- id: test7-0cdd001c
+  name: Pacman
+  type: challenge
+- id: test7-7ce92bdc
+  name: Ioctl Me Maybe
+  type: challenge
+- id: test7-d8fef003
+  name: Have You Tried Ti Gn
+  type: challenge
+- id: test7-ab7ab550
+  name: Lol Rwx
+  type: challenge
+- id: test7-41474e1a
+  name: Quick Cast
+  type: challenge
+- id: test7-9861750a
+  name: Seek And Destroy
+  type: challenge
+- id: test7-455e530d
+  name: Pastez
+  type: challenge
+- id: test7-6069761a
+  name: The Way
+  type: challenge
+- id: test7-60594ec1
+  name: Nvulns
+  type: challenge
+- id: test7-851d2467
+  name: Recracked
+  type: challenge
+- id: test7-d678222d
+  name: Open To Interpretation
+  type: challenge
+- id: test7-b57dba2c
+  name: House Of Barbie
+  type: challenge
+- id: test7-ad0f1d6f
+  name: Story Time
+  type: challenge
+- id: test7-5fe9848f
+  name: F In The Stack
+  type: challenge
+- id: test7-b3637a43
+  name: Stacks
+  type: challenge
+- id: test7-b240762d
+  name: John Henry
+  type: challenge
+- id: test7-7e1bc343
+  name: Push Pop Automaton
+  type: challenge
+- id: test7-9f81786a
+  name: Fast Updater
+  type: challenge
+- id: test7-6fbb2698
+  name: Aes Of Spades
+  type: challenge
+- id: test7-aa4b17f3
+  name: Noppenheimer
+  type: challenge
+- id: test7-87f03e5f
+  name: Hopscotch
+  type: challenge
+- id: test7-fbda571d
+  name: Jammer
+  type: challenge
+- id: test7-998502d0
+  name: Snomelet
+  type: challenge
+- id: test7-69d1907a
+  name: Cheap Flights
+  type: challenge

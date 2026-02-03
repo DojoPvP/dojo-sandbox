@@ -1,0 +1,7 @@
+#!/bin/bash
+
+gcc /challenge/*.c -Wall -fno-stack-protector -z execstack -o /challenge/challenge
+
+chmod u+s /challenge/challenge
+rm /challenge/*.c
+rm /challenge/.init
