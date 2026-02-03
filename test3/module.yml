@@ -1,0 +1,9 @@
+id: test3
+name: test3
+challenges:
+- id: test3-c8dbfe59
+  name: Have You Tried Ti Gn
+  type: challenge
+- id: test3-8f3d663d
+  name: Push Pop Automaton
+  type: challenge
