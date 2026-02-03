@@ -1,21 +1,29 @@
-id: "dojo-pvp"
+id: dojo-pvp
 name: DojoPvP
 image: prathamgupta36/ctf-archive-experimental:0.2
-#type: hidden
-
 modules:
-  - id: test001
-    name: "Test 1"
-    description: Stuff.
-    visibility:
-      start: "2025-09-29T20:30:00-07:00"
-    challenges:
-      - import:
-          dojo: ctf-archive
-          module: csawctf2011
-          challenge: net1
-        name: "My New Name"
-        description: "YOLO (this is CSAW 2011 net1)"
-
-  - id: basket
-    name: "Challenge basket"
+- id: test001
+  name: Test 1
+  description: Stuff.
+  visibility:
+    start: '2025-09-29T20:30:00-07:00'
+  challenges:
+  - import:
+      dojo: ctf-archive
+      module: csawctf2011
+      challenge: net1
+    name: My New Name
+    description: YOLO (this is CSAW 2011 net1)
+- id: basket
+  name: Challenge basket
+- id: test
+  name: test
+  description: CTF Event created via Discord Bot
+  visibility:
+    start: '2026-02-02T21:22:32.662448-07:00'
+    end: '2026-02-02T21:23:32.662475-07:00'
+  challenges:
+  - import:
+      dojo: ctf-archive
+      module: syscall
+      challenge: me-maybe
