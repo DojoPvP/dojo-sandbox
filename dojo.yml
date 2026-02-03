@@ -6,10 +6,6 @@ modules:
   name: Challenge basket
   visibility:
     start: '2099-09-29T20:30:00-07:00'
-- id: test4
-  name: test4
-  visibility:
-    start: '2026-02-02T23:02:47.905749-07:00'
 - id: test5
   name: test5
   visibility:
