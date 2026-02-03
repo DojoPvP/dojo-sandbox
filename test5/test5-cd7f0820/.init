@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd /challenge/
+python generate.py
+gcc program.c -Wall -fno-stack-protector -z execstack -o challenge
+
+chmod u+s challenge
+rm generate.py
+rm *.c
+rm .init

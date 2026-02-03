@@ -1,0 +1,16 @@
+#!/bin/bash
+
+FLAG=$(cat /flag) # do we use our own flag? lmao
+#FLAG='LiveCTF{theyre_happier_there_today}' # original FLAG variable
+
+cd /challenge
+python encrypt.py ./flag "$FLAG" 70 # originally 50
+gcc *.c -Wall -Wpedantic -o challenge
+
+chmod ugo+x server.py
+chmod u+s challenge
+rm *.c
+rm *.h
+rm encrypt.py
+rm server.tpl.py
+rm .init
