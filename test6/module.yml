@@ -1,0 +1,18 @@
+id: test6
+name: test6
+challenges:
+- id: test6-d0767837
+  name: Pacman
+  type: challenge
+- id: test6-b97ff229
+  name: Shop
+  type: challenge
+- id: test6-51e481f6
+  name: Recracked
+  type: challenge
+- id: test6-01914ddc
+  name: The Way
+  type: challenge
+- id: test6-d91b6c90
+  name: F In The Stack
+  type: challenge
