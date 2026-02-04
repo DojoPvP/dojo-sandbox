@@ -1,7 +1,9 @@
 #!/bin/bash
 
+gcc /challenge/runme.c -o /challenge/runme
 gcc /challenge/challenge.c -o /challenge/challenge
 
+chmod u+s /challenge/runme
 chmod u+s /challenge/challenge
-rm /challenge/challenge.c
+rm /challenge/*.c
 rm /challenge/.init
