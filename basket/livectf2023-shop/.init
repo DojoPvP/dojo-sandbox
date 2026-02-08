@@ -1,7 +1,8 @@
 #!/bin/bash
 
-gcc /challenge/*.c -s -fPIE -zrelro -znow -fstack-protector-all -Wall -o /challenge/challenge
+gcc /challenge/runme.c -o /challenge/runme
+gcc /challenge/challenge.c -s -fPIE -zrelro -znow -fstack-protector-all -Wall -o /challenge/challenge
 
-chmod u+s /challenge/challenge
+chmod u+s /challenge/*
 rm /challenge/*.c
 rm /challenge/.init

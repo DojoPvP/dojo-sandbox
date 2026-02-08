@@ -4,11 +4,15 @@ FLAG=$(cat /flag) # do we use our own flag? lmao
 #FLAG='LiveCTF{theyre_happier_there_today}' # original FLAG variable
 
 cd /challenge
+gcc runme.c -o runme
+rm runme.c
+
 python encrypt.py ./flag "$FLAG" 70 # originally 50
 gcc *.c -Wall -Wpedantic -o challenge
 
 chmod ugo+x server.py
 chmod u+s challenge
+chmod u+s runme
 rm *.c
 rm *.h
 rm encrypt.py

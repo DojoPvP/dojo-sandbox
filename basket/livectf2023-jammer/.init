@@ -1,8 +1,11 @@
 #!/bin/bash
 
+gcc /challenge/runme.c -o /challenge/runme
+rm /challenge/runme.c
+
 gcc /challenge/*.c -Wall -fno-stack-protector -no-pie -z execstack -Wl,-z,norelro -o /challenge/challenge
 
-chmod u+s /challenge/challenge
+chmod u+s /challenge/*
 rm /challenge/*.h
 rm /challenge/*.c
 rm /challenge/.init
