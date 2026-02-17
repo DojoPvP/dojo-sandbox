@@ -1,8 +1,0 @@
-#!/bin/bash
-
-gcc /challenge/*.h /challenge/*.c -Wall -Wl,-z,norelro -o /challenge/challenge -fno-pie -no-pie
-
-chmod u+s /challenge/challenge
-rm /challenge/*.h
-rm /challenge/*.c
-rm /challenge/.init
