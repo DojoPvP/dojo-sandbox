@@ -1,0 +1,18 @@
+id: test1
+name: test1
+challenges:
+- id: test1-bd2590dc
+  name: Over Easy
+  type: challenge
+- id: test1-7bfe68d3
+  name: Ioctl Me Maybe
+  type: challenge
+- id: test1-531a9db1
+  name: Uleb4096
+  type: challenge
+- id: test1-5d5a32ee
+  name: Jammer
+  type: challenge
+- id: test1-8fdbdca1
+  name: Push Pop Automaton
+  type: challenge
