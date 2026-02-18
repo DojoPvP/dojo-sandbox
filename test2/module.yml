@@ -1,0 +1,18 @@
+id: test2
+name: test2
+challenges:
+- id: test2-eeb174af
+  name: Fairy Nuff
+  type: challenge
+- id: test2-aa190c75
+  name: Shop
+  type: challenge
+- id: test2-bf027624
+  name: Noppenheimer
+  type: challenge
+- id: test2-b1ccdc66
+  name: Open To Interpretation
+  type: challenge
+- id: test2-82c16b25
+  name: Jammer
+  type: challenge
