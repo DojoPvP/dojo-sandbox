@@ -1,0 +1,18 @@
+id: test3
+name: test3
+challenges:
+- id: test3-ded92e77
+  name: Quick Cast
+  type: challenge
+- id: test3-83ab4ae7
+  name: Story Time
+  type: challenge
+- id: test3-7af91661
+  name: Stacks
+  type: challenge
+- id: test3-28928c60
+  name: Nerd Sniped
+  type: challenge
+- id: test3-6a4f74b8
+  name: Lol Rwx
+  type: challenge
