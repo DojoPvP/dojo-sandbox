@@ -1,0 +1,63 @@
+id: test4
+name: test4
+challenges:
+- id: test4-effbb090
+  name: Have You Tried Ti Gn
+  type: challenge
+- id: test4-b91a826d
+  name: John Henry
+  type: challenge
+- id: test4-a3325e07
+  name: Cheap Flights
+  type: challenge
+- id: test4-e1d614d7
+  name: Push Pop Automaton
+  type: challenge
+- id: test4-a86f54df
+  name: Noppenheimer
+  type: challenge
+- id: test4-638ab3eb
+  name: Stacks
+  type: challenge
+- id: test4-290d41fd
+  name: Open To Interpretation
+  type: challenge
+- id: test4-d0337e60
+  name: Hopscotch
+  type: challenge
+- id: test4-b0e0ba41
+  name: F In The Stack
+  type: challenge
+- id: test4-de33b105
+  name: Over Easy
+  type: challenge
+- id: test4-dbc85704
+  name: Quick Cast
+  type: challenge
+- id: test4-18145036
+  name: Story Time
+  type: challenge
+- id: test4-f14a55d9
+  name: Snomelet
+  type: challenge
+- id: test4-83e79192
+  name: Seek And Destroy
+  type: challenge
+- id: test4-764ed3bd
+  name: The Way
+  type: challenge
+- id: test4-5998b679
+  name: Jammer
+  type: challenge
+- id: test4-8cf200db
+  name: Recracked
+  type: challenge
+- id: test4-823246c2
+  name: Nopcoding
+  type: challenge
+- id: test4-2e4fd188
+  name: Literally Just Gets
+  type: challenge
+- id: test4-cd434520
+  name: Aes Of Spades
+  type: challenge
