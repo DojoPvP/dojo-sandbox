@@ -1,0 +1,24 @@
+id: dojopvptest
+name: DojoPvP test
+challenges:
+- id: dojopvptest-bfab6196
+  name: Stacks
+  type: challenge
+- id: dojopvptest-8aa9b2d4
+  name: Seek And Destroy
+  type: challenge
+- id: dojopvptest-e8dac01d
+  name: Noppenheimer
+  type: challenge
+- id: dojopvptest-434c91b6
+  name: Snomelet
+  type: challenge
+- id: dojopvptest-17656672
+  name: Recracked
+  type: challenge
+- id: dojopvptest-d157ed1e
+  name: Nerd Sniped
+  type: challenge
+- id: dojopvptest-3a0e5ff5
+  name: F In The Stack
+  type: challenge
