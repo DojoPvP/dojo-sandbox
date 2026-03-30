@@ -1,0 +1,18 @@
+id: testevent2
+name: Test Event 2
+challenges:
+- id: testevent2-b784cae9
+  name: No Roplem
+  type: challenge
+- id: testevent2-afbdfbb4
+  name: Noppenheimer
+  type: challenge
+- id: testevent2-a7c18312
+  name: Literally Just Gets
+  type: challenge
+- id: testevent2-a36d63b1
+  name: Syscall Me Maybe
+  type: challenge
+- id: testevent2-197fd3d1
+  name: Snomelet
+  type: challenge
