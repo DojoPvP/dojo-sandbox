@@ -3,5 +3,4 @@
 gcc /challenge/runme.c -o /challenge/runme
 
 chmod u+s /challenge/runme
-rm /challenge/runme
 rm /challenge/.init
