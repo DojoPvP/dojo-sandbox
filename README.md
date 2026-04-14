@@ -38,3 +38,20 @@ modules:
 2. Rename the id in the `dojo.yml` file.
 3. Remove any unneeded challenges from the `basket/module.yml` file.
 4. Create the dojo on pwn.college, using your fork of this repository.
+
+## Shellcoding: Considerations
+If shellcoding (and perhaps obtaining a root shell) is required, please include a file called `runme.c` and compile it (either statically or using `.init`):
+```c
+#include <unistd.h>
+#include <stdio.h>
+int main() {
+    setuid(0);
+    setgid(0);
+    execl("/run/dojo/bin/python", "python", "/challenge/challenge.py", NULL); // for python-based challenges
+    execl("/challenge/challenge", NULL); // for C-based challenges
+    return 0; // Hypothetically never reaches this point
+}
+```
+
+## `.init` for compilation
+The `.init` file is a Bash script which gets executed when building a challenge environment. When compiling challenges, ensure that permissions are configured appropriately with `chmod`. When dynamically compiling, ensure that `.c` (or other source/templating) files are removed unless they are supposed to be visible.
