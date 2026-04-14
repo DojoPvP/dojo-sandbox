@@ -14,3 +14,7 @@ modules:
   name: Test Event 2
   visibility:
     start: '2026-03-30T00:00:00-07:00'
+- id: demoeventforcapstone
+  name: demo event for capstone
+  visibility:
+    start: '2026-04-14T00:45:35.755580-07:00'

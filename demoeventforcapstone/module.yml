@@ -1,0 +1,24 @@
+id: demoeventforcapstone
+name: demo event for capstone
+challenges:
+- id: demoeventforcapstone-e137d2cd
+  name: Fairy Nuff
+  type: challenge
+- id: demoeventforcapstone-523a22ee
+  name: Nvulns
+  type: challenge
+- id: demoeventforcapstone-29ae272b
+  name: Shop
+  type: challenge
+- id: demoeventforcapstone-24dd9e1d
+  name: Over Easy
+  type: challenge
+- id: demoeventforcapstone-a3ace0ef
+  name: Nopcoding
+  type: challenge
+- id: demoeventforcapstone-1a4c384a
+  name: Recracked
+  type: challenge
+- id: demoeventforcapstone-5ea3779e
+  name: Jammer
+  type: challenge
