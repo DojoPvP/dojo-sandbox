@@ -18,3 +18,7 @@ modules:
   name: demoeventforcapstone-updated
   visibility:
     start: '2026-04-14T00:45:35.755580-07:00'
+- id: capstone2026
+  name: capstone2026
+  visibility:
+    start: '2026-04-23T09:42:33.591074-07:00'

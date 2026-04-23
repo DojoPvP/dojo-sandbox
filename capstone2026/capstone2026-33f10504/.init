@@ -1,0 +1,16 @@
+#!/bin/bash
+
+gcc /challenge/runme.c -o /challenge/runme
+
+rm /challenge/runme.c
+
+cd /challenge/stacks
+rake release
+mv /challenge/stacks/stacks /challenge/challenge
+
+rm -r /challenge/libctf
+rm -r /challenge/stacks
+
+
+chmod u+s /challenge/*
+rm /challenge/.init
